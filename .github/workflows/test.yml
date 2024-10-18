@@ -8,6 +8,7 @@ on:
           type: string
 jobs:
   step1:
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
